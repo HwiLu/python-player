@@ -22,20 +22,20 @@
 # 安装pyhive所需依赖包
   
   顺序及版本
-  * 顺序
+- 顺序
 
-- six> future>pure>ply
-
-  tar -zvxf 
-  
-  python setup.py install
-
-- sasl>thrift>thrift-sasl>pyhive
+	- six> future>pure>ply
 
   tar -zvxf 
   
   python setup.py install
-  * 版本
+
+	- sasl>thrift>thrift-sasl>pyhive
+
+  tar -zvxf 
+  
+  python setup.py install
+- 版本
   
 ```
 localhost# ll *.tar.gz
