@@ -1,4 +1,4 @@
-#安装python 3.6.3
+# 安装python 3.6.3
 - python update
   https://www.jianshu.com/p/ae6cd13ce0f1
   
@@ -19,7 +19,7 @@
   libreadline5-5.2-147.17.30.x86_64.rpm     
   
   
-  #安装pyhive所需依赖包
+  # 安装pyhive所需依赖包
   
   顺序及版本
   * 顺序
