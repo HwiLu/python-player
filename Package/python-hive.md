@@ -35,7 +35,6 @@
   tar -zvxf 
   
   python setup.py install
-  
   * 版本
   
 ```
