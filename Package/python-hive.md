@@ -1,4 +1,4 @@
-**Pyhton连接Hive环境**
+**Python连接Hive环境**
 
 # 安装python 3.6.3
 - python update
