@@ -29,7 +29,6 @@ while index <  len(str):   #  index < 19
     index += 1
 ```
 
-
 ## for循环
 
 ```python
@@ -39,13 +38,12 @@ while index <  len(str):   #  index < 19
     http://www.runoob.com/python/python-for-loop.html
  '''
 for letter in 'Python':     # 第一个实例
-   print '当前字母 :', letter
+   print('当前字母 :', letter)
  
 fruits = ['banana', 'apple',  'mango']
 for fruit in fruits:        # 第二个实例
-   print '当前水果 :', fruit
- 
-print "Good bye!
+   print('当前水果 :', fruit)
+print("Good bye!")
 ```
 ## continue语句
 
@@ -60,8 +58,6 @@ for i in range(10):
     print("*")
     print("&")
 ```
-
-'''
 ## break语句：
 作用：跳出for和while循环
 注意：只能跳出距离他最近的那一层循环
