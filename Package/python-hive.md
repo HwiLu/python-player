@@ -1,3 +1,7 @@
+'''
+	
+'''
+
 # 安装python 3.6.3
 - python update
   https://www.jianshu.com/p/ae6cd13ce0f1
