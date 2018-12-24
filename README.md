@@ -1,5 +1,5 @@
 # python-player
-Code for fun
+Coding for fun
 
 ## [Package](https://github.com/HwiLu/python-player/tree/master/Package)
 
