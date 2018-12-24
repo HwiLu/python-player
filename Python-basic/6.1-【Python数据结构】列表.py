@@ -64,6 +64,7 @@ print(list10[3:])
 print(list10[:5])
 
 #二维列表
+    #其元素也是列表
 list11 = [[1,2,3], [4,5,6], [7,8,9]]
 print(list11[1][1])
 
@@ -94,7 +95,6 @@ list15.pop(2)
 print(list15.pop(1))
 print(list15)
 
-
 #remove  移除列表中的某个元素第一个匹配的结果
 list16 = [1,2,3,4,5,4,5,4]
 list16.remove(4)
@@ -104,7 +104,6 @@ print(list16)
 list17 = [1,2,3,4,5]
 list17.clear()
 print(list17)
-
 
 #从列表中找出某个值第一个匹配的索引值
 list18 = [1,2,3,4,5, 3,4,5,6]
@@ -118,12 +117,9 @@ print(index18, index19)
 list20 = [1,2,3,4,5]
 print(len(list20))
 
-
-
 #获取列表中的最大值
 list21 = [1,2,3,4,5]
 print(max(list21))
-
 
 #获取列表中的最小值
 list22 = [1,2,3,4,5]
@@ -141,19 +137,15 @@ while num24 < all:
     num24 += 1
 print(list23)
 
-
 #倒叙
 list25 = [1,2,3,4,5]
 list25.reverse()
 print(list25)
 
-
 #排序  升序
 list26 = [2,1,3,5,4]
 list26.sort()
 print(list26)
-
-
 
 #拷贝
 #浅拷贝   引用拷贝
@@ -176,14 +168,3 @@ print(id(list30))
 #将元组转成列表
 list31 = list((1,2,3,4))
 print(list31)
-
-
-
-
-
-
-
-
-
-
-
