@@ -1,5 +1,5 @@
 # python-player
-Coding for fun, and to be the master .
+Coding for fun, and to be the master, cheer 
 
 ## [Package](https://github.com/HwiLu/python-player/tree/master/Package)
 
