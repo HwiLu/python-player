@@ -7,7 +7,7 @@
 def func1():
     print("hell world")
 
-def outer(func):
+def outer(func): 
     def inner():
         print("*******************")
         func()
