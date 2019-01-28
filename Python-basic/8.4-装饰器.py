@@ -42,12 +42,18 @@ def outer(func):
         func(age)
     return inner
 
-#使用@符号将装饰器应用到函数
-#@python2.4支持使用@符号
+#使用@符号将装饰器应用到函数，将@装饰器写在函数前面，代表将装饰器运用于下方函数
+#@python2.4开始支持使用@符号
+
 @outer   #相当于say = outer(say)
+
 def say(age):
     print("sunck is %d years old" % (age))
 
 say(-10)
+
+
+
+# 通用装饰器
 
 
