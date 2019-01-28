@@ -22,6 +22,9 @@ def func():
 
 
 #简单的装饰器
+'''
+不带参数的装饰器
+'''
 def func1():
     print("hell world")
 
@@ -35,6 +38,9 @@ f = outer(func1)
 f()
 
 # 复杂一点的装饰器
+'''
+带参数的装饰器
+'''
 def outer(func):
     def inner(age):
         if age < 0:
@@ -53,6 +59,9 @@ def say(age):
 say(-10)
 
 
+'''
+上面的装饰器只能传递一个参数
+'''
 
 # 通用装饰器
 
